@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/folk?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: folk
+    password: wqs99999
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      enabled: true
+server:
+  port: 9090
+  servlet:
+    context-path: /folk
+SavePath:
+  ProfilePhoto: '/www/wwwroot/folk/'  #图标存储路径
+  ProfilePhotoMapper: '/profilePhoto/'  #图标的映射路径
+
+

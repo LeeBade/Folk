@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3dc6d1b4-12b1-464b-9380-a81704068ff5" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/newweb/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/src/views/edit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/src/views/home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newweb/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/titian/server/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/com/titian/server/ServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/api/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/api/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/edit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ezImUv33HzWfmwY2a4t4gViyfy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3dc6d1b4-12b1-464b-9380-a81704068ff5" name="更改" comment="" />
+      <created>1712901139138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712901139138</updated>
+      <workItem from="1712901140243" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
