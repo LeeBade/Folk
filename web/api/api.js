@@ -3,6 +3,7 @@ import axios from "axios";
 
 
 const api = {
+    // urlPrefix:"http://localhost:9090/folk",
     urlPrefix:"http://47.93.77.117:9090/folk",
     getText: (id) => {
         return axios({

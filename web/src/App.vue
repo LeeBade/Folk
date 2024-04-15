@@ -1,16 +1,17 @@
 <template>
   <div>
     <div class="container">
-      <div class="platform-name">明清巴蜀民俗方言收录</div>
+      <div class="platform-name">明清巴蜀民俗收录</div>
       <div>
         <el-menu
             :default-active="this.$route.path"
             router
             mode="horizontal"
             class="el-menu-horizontal"
-            background-color="#545c64"
-            text-color="#fff"
-            active-text-color="#ffd04b">
+            background-color="#FFFFFF"
+            text-color="#000000"
+            active-text-color="#00CCFF"
+            default-active="home">
           <el-menu-item v-for="(item, i) in navList" :key="i" :index="item.name">
             <template slot="title">
               <i :class="item.iconName"></i>
@@ -29,8 +30,8 @@ export default {
     return {
       navList:[
         {name:'home',navItem:'首页',iconName:'el-icon-s-home'},
-        {name:'resource',navItem:'民俗方言资料',iconName:'el-icon-s-tools'},
-        {name:'edit',navItem:'修改',iconName:'el-icon-upload2'},
+        {name:'resource',navItem:'民俗资料',iconName:'el-icon-guide'},
+        // {name:'edit',navItem:'修改',iconName:'el-icon-upload2'},
         {name:'reference',navItem:'参考文献',iconName:'el-icon-s-promotion'},
         {name:'game',navItem:'游戏',iconName:'el-icon-trophy'},
       ] }
@@ -71,16 +72,15 @@ nav a.router-link-exact-active {
 }
 
 .platform-name {
-  //position: fixed;
-  //top: 20px;
-  //right: 20px;
-  font-family: cursive; /* 使用草书字体 */
-  font-size: 24px; /* 字体大小 */
-  color: #333; /* 字体颜色 */
+  font-family: Cursive;
+  font-size: 24px;
+  color: #00CCFF;
 }
 .container {
   display: flex;
   align-items: center; /* 垂直居中对齐 */
 }
-
+.el-menu{
+  border:0!important;
+}
 </style>

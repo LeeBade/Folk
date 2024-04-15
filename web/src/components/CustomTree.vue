@@ -1,6 +1,10 @@
 <template>
-  <el-tree :data="data" :props="defaultProps" @node-click="handleNodeClick" class="custom-tree">
-  </el-tree>
+  <div class="tree-container">
+    <el-tree :data="data" :props="defaultProps" icon-class="el-icon-arrow-right" @node-click="handleNodeClick"
+             indent=20 highlight-current="true"
+             class="custom-tree">
+    </el-tree>
+  </div>
 </template>
 
 <script>
@@ -17,7 +21,7 @@ export default {
           "id": 2
         },
         {
-          "label": "士农工商娱",
+          "label": "士业百态",
           "id": 3,
           "children": [
             {
@@ -47,11 +51,11 @@ export default {
           ]
         },
         {
-          "label": "冠婚丧祭宴",
+          "label": "多样礼俗",
           "id": 10,
           "children": [
             {
-              "label": "冠礼、及笄礼",
+              "label": "冠礼、笄礼",
               "id": 11
             },
             {
@@ -67,7 +71,7 @@ export default {
                   "id": 14
                 },
                 {
-                  "label": "新风俗",
+                  "label": "新婚俗",
                   "id": 15
                 }
               ]
@@ -91,10 +95,6 @@ export default {
               ]
             },
             {
-              "label": "相见礼",
-              "id": 20
-            },
-            {
               "label": "宴饮礼",
               "id": 21,
               "children": [
@@ -111,7 +111,7 @@ export default {
           ]
         },
         {
-          "label": "信仰",
+          "label": "民间信仰",
           "id": 24,
           "children": [
             {
@@ -125,7 +125,7 @@ export default {
           ]
         },
         {
-          "label": "节序",
+          "label": "节庆万花筒",
           "id": 27,
           "children": [
             {
@@ -195,5 +195,9 @@ export default {
 </script>
 
 <style scoped>
-
+.tree-container /deep/ .el-tree-node {
+  position: relative;
+  padding-left: 13px;
+  color: #000;
+}
 </style>
